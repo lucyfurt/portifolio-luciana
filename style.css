@@ -161,5 +161,14 @@
     color: #6c757d;
   }
 
+  @media (max-width: 991.98px) { /* Breakpoint para dispositivos móveis */
+    .navbar-brand {
+      justify-content: center;
+    }
+    #navbarNav {
+      text-align: center;
+    }
+  }
+  
 
   
