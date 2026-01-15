@@ -1,251 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portifólio Luciana Furtado</title>
-  <!-- Animate.css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <!-- Bootstrap Icons -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
-  <!-- Custom CSS -->
+
+  <title>Luciana Furtado | Desenvolvedora Backend</title>
+
+  <meta
+    name="description"
+    content="Portfólio de Luciana Furtado, desenvolvedora backend especializada em Python e Django. Projetos, habilidades e contato."
+  />
+
   <link rel="stylesheet" href="style.css" />
-  <script src="./script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-
 <body>
-  <nav class="navbar navbar-expand-lg sticky-top shadow-sm">
-    <div class="container text-center text-lg-start">
-      <a class="navbar-brand d-flex align-items-center justify-content-center" href="#">
-        <img class="img-logo" src="./assets/logo-removebg-preview.png" alt="Logo" width="40" height="40" />
-        <span class="ms-2 fw-bold text-light">Luciana Furtado</span>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto text-center">
-          <li class="nav-item">
-            <a class="nav-link animate__animated animate__fadeIn animate__delay-1s" href="#projetos">Projetos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link animate__animated animate__fadeIn animate__delay-2s" href="#servicos">Serviços</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link animate__animated animate__fadeIn animate__delay-3s" href="#ferramentas">Ferramentas</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
-  <!-- Hero Section -->
-  <header class="py-5">
-    <div class="container">
-      <div class="row g-0 align-items-center text-center">
-        <div class="col-md-8">
-          <img class="img-fluid img-inicio rounded animate__animated animate__fadeInLeft" src="./assets/navegar.gif"
-            alt="Imagem de Introdução" />
-        </div>
-        <div class="col-md-4 p-4 animate__animated animate__fadeInRight">
-          <div class="container">
-            <div class="avatar-container">
-              <img src="./assets/IMG-20230818-WA0013-removebg-preview.png" alt="Avatar" class="avatar-img" />
-              <div class="avatar-name">Luciana Furtado</div>
-              <div class="avatar-role">Python Backend Developer</div>
-            </div>
-          </div>
-          <p class="mt-3">
-            Desenvolvedora especializada em <strong>Backend com Python (Django/Flask)</strong> e interfaces modernas com
-            <strong>React</strong>.
-            Foco em criar sistemas robustos, escaláveis e com ótima experiência de usuário.
-          </p>
-          <a href="https://abrir.link/SNiaH" target="_blank"
-            class="btn btn-primary mt-3 animate__animated animate__pulse animate__infinite">Entre em contato</a>
-        </div>
-      </div>
-    </div>
+  <!-- HEADER -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- Projetos -->
-  <section id="projetos" class="py-5">
-    <div class="container">
-      <h2 class="text-center mb-4 animate__animated animate__zoomIn">
-        Projetos em Destaque
-      </h2>
-      <div class="row g-4">
-        <div class="col-md-4">
-          <div class="card animate__animated animate__fadeInUp animate__delay-1s">
-            <img src="./assets/Capturar.PNG" class="card-img-top" alt="Simulador de Ações" />
-            <div class="card-body">
-              <h5 class="card-title">Simulador de Ações (Flask)</h5>
-              <p class="card-text">
-                <strong>O Problema:</strong> Investidores iniciantes perdem dinheiro por falta de prática em ambientes
-                seguros.
-                <br>
-                <strong>A Solução:</strong> Um simulador de mercado financeiro em tempo real com
-                <strong>Python/Flask</strong>, permitindo estratégias de investimento sem risco financeiro.
-              </p>
-              <div class="d-flex justify-content-center">
-                <a href="https://github.com/lucyfurt/simulador-acoes-flask" class="btn btn-primary" target="_blank">Ver
-                  no GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card animate__animated animate__fadeInUp animate__delay-2s">
-            <img src="./assets/empresarial.PNG" class="card-img-top" alt="Sistema de Avaliação" />
-            <div class="card-body">
-              <h5 class="card-title">
-                Sistema de Avaliação (React)
-              </h5>
-              <p class="card-text">
-                <strong>O Problema:</strong> Gestão ineficiente de provas e correção manual demorada.
-                <br>
-                <strong>A Solução:</strong> Plataforma moderna com <strong>React e Firebase</strong> para aplicação de
-                provas online, com feedback instantâneo e gestão simplificada de notas.
-              </p>
-              <div class="d-flex justify-content-center">
-                <a href="https://github.com/lucyfurt/sistema-provas-react-firebase" class="btn btn-primary"
-                  target="_blank">Ver no GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card animate__animated animate__fadeInUp animate__delay-3s">
-            <img src="./assets/hotel.png" class="card-img-top" alt="Automação de Documentos" />
-            <div class="card-body">
-              <h5 class="card-title">
-                Bot de Automação (Python)
-              </h5>
-              <p class="card-text">
-                <strong>O Problema:</strong> Horas gastas transferindo dados manualmente de planilhas para relatórios
-                Word.
-                <br>
-                <strong>A Solução:</strong> Script de automação com <strong>Python (OpenPyXL)</strong> que gera Planos
-                de Ensino formatados automaticamente, eliminando tarefas repetitivas.
-              </p>
-              <div class="d-flex justify-content-center">
-                <a href="https://github.com/lucyfurt/bot-python-openpyxl-docx" class="btn btn-primary"
-                  target="_blank">Ver no GitHub</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+  <!-- SOBRE -->
+  <section id="about">
+    <h1>Olá, eu sou a Luciana 👋</h1>
+
+    <p class="subtitle">
+      Desenvolvedora Backend • Python • Django
+    </p>
+
+    <p>
+      Sou desenvolvedora backend com formação em Ciência da Computação e
+      experiência em desenvolvimento de APIs REST com Python e Django.
+      Tenho interesse em projetos educacionais, tecnologia e soluções
+      que gerem impacto real.
+    </p>
+
+    <div class="links">
+      <a href="https://github.com/lucyfurt" target="_blank">GitHub</a>
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+      <a href="mailto:seuemail@email.com">Email</a>
     </div>
   </section>
 
-  <!-- Serviços -->
-  <section id="servicos" class="py-5">
-    <div class="container">
-      <h2 class="text-center mb-4 animate__animated animate__fadeInDown">
-        Especialidades
-      </h2>
-      <div class="row text-center">
-        <div class="col-md-4 animate__animated animate__zoomIn">
-          <i class="bi bi-hdd-rack display-4 text-primary"></i>
-          <h4>Backend Development</h4>
-          <p>Desenvolvimento de APIs RESTful, arquitetura de microsserviços e automação com Python (Django/Flask).</p>
-        </div>
-        <div class="col-md-4 animate__animated animate__zoomIn animate__delay-1s">
-          <i class="bi bi-code-slash display-4 text-primary"></i>
-          <h4>Frontend React</h4>
-          <p>Criação de SPAs (Single Page Applications) modernas, interativas e responsivas com React.js.</p>
-        </div>
-        <div class="col-md-4 animate__animated animate__zoomIn animate__delay-2s">
-          <i class="bi bi-database-check display-4 text-primary"></i>
-          <h4>Banco de Dados</h4>
-          <p>Modelagem e otimização de bancos de dados relacionais (PostgreSQL, MySQL) e NoSQL.</p>
-        </div>
-      </div>
-    </div>
+  <!-- HABILIDADES -->
+  <section id="skills">
+    <h2>Habilidades</h2>
+
+    <ul class="skills-list">
+      <li>Python</li>
+      <li>Django</li>
+      <li>Django REST Framework</li>
+      <li>APIs REST</li>
+      <li>Git e GitHub</li>
+      <li>SQLite / PostgreSQL</li>
+      <li>HTML, CSS e JavaScript (básico)</li>
+    </ul>
   </section>
 
-  <!-- Ferramentas -->
-  <section id="ferramentas" class="py-5">
-    <div class="container text-center">
-      <h2 class="mb-4">Tech Stack</h2>
-      <div class="row">
-        <!-- Frameworks e Linguagens -->
-        <div class="col-md-6 mb-4">
-          <h4>Linguagens & Frameworks</h4>
-          <ul class="list-unstyled d-flex justify-content-center align-items-center flex-wrap">
-            <li class="mx-3">
-              <i class="bi bi-filetype-py fs-2 text-primary"></i>
-              <p>Python</p>
-            </li>
-            <li class="mx-3">
-              <i class="bi bi-box-seam fs-2 text-success"></i>
-              <p>Django</p>
-            </li>
-            <li class="mx-3">
-              <i class="bi bi-file-code-fill fs-2 text-info"></i>
-              <p>React</p>
-            </li>
-            <li class="mx-3">
-              <i class="bi bi-filetype-js fs-2 text-warning"></i>
-              <p>JavaScript</p>
-            </li>
-          </ul>
-        </div>
-        <!-- Bancos de Dados -->
-        <div class="col-md-6 mb-4">
-          <h4>Infra & Dados</h4>
-          <ul class="list-unstyled d-flex justify-content-center align-items-center flex-wrap">
-            <li class="mx-3">
-              <i class="bi bi-database-fill fs-2 text-primary"></i>
-              <p>PostgreSQL</p>
-            </li>
-            <li class="mx-3">
-              <i class="bi bi-git fs-2 text-danger"></i>
-              <p>Git</p>
-            </li>
-            <li class="mx-3">
-              <i class="bi bi-cloud-fill fs-2 text-secondary"></i>
-              <p>Docker</p>
-            </li>
-          </ul>
-        </div>
+  <!-- PROJETOS -->
+  <section id="projects">
+    <h2>Projetos</h2>
+
+    <div class="project-card">
+      <h3>🎬 Flix API</h3>
+
+      <p>
+        API REST desenvolvida com Django e Django REST Framework para
+        gerenciamento de filmes, gêneros e avaliações.
+      </p>
+
+      <div class="project-links">
+        <a
+          href="https://github.com/lucyfurt/flix-api"
+          target="_blank"
+        >
+          Ver código
+        </a>
       </div>
     </div>
+
+    <!-- você pode duplicar esse bloco para novos projetos -->
   </section>
 
-  <!-- Footer -->
-  <footer class="py-5">
-    <div class="container">
-      <div class="row justify-content-center">
-        <!-- Redes Sociais -->
-        <div class="col-12 text-center mb-4">
-          <h5 class="mb-3">Conecte-se</h5>
-          <div class="d-flex justify-content-center gap-3">
-            <a href="https://www.instagram.com/luciana_furtado10/" target="_blank" class="text-white">
-              <i class="bi bi-instagram fs-4"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/luciana-furtado-36072187/" target="_blank" class="text-white">
-              <i class="bi bi-linkedin fs-4"></i>
-            </a>
-            <a href="https://github.com/lucyfurt" target="_blank" class="text-white">
-              <i class="bi bi-github fs-4"></i>
-            </a>
-          </div>
-        </div>
-      </div>
+  <!-- CONTATO -->
+  <section id="contact">
+    <h2>Contato</h2>
 
-      <!-- Copyright -->
-      <div class="text-center mt-4 border-top border-secondary pt-4"
-        style="border-color: var(--glass-border) !important;">
-        <p class="mb-0">&copy; 2024 Luciana Furtado.</p>
-      </div>
-    </div>
+    <p>
+      Estou aberta a oportunidades, colaborações e projetos.
+    </p>
+
+    <ul>
+      <li>Email: <a href="mailto:seuemail@email.com">seuemail@email.com</a></li>
+      <li>GitHub: <a href="https://github.com/lucyfurt" target="_blank">lucyfurt</a></li>
+      <li>LinkedIn: <a href="https://linkedin.com" target="_blank">Perfil</a></li>
+    </ul>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 • Luciana Furtado</p>
   </footer>
-</body>
 
+  <script src="script.js"></script>
+</body>
 </html>
